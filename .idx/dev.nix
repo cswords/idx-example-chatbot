@@ -23,7 +23,7 @@
         create-venv = ''
           python -m venv .venv
           source .venv/bin/activate
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
         '';
         # Open editors for the following files by default, if they exist:
